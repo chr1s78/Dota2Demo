@@ -11,7 +11,7 @@ import SwiftUI
 struct Dota2DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

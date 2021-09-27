@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,17 @@
 		AD2BB24F26FAE9B80001F4B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB24E26FAE9B80001F4B1 /* ContentView.swift */; };
 		AD2BB25126FAE9B90001F4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2BB25026FAE9B90001F4B1 /* Assets.xcassets */; };
 		AD2BB25426FAE9B90001F4B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2BB25326FAE9B90001F4B1 /* Preview Assets.xcassets */; };
+		AD2BB25D26FAE9DB0001F4B1 /* DotaHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB25C26FAE9DB0001F4B1 /* DotaHeroModel.swift */; };
+		AD2BB25F26FAE9E30001F4B1 /* DotaTeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB25E26FAE9E30001F4B1 /* DotaTeamModel.swift */; };
+		AD2BB26226FAEA990001F4B1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB26126FAEA990001F4B1 /* ViewModel.swift */; };
+		AD2BB26526FAEAC00001F4B1 /* NetworksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB26426FAEAC00001F4B1 /* NetworksService.swift */; };
+		AD2BB26F26FCAFFA0001F4B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB26E26FCAFFA0001F4B1 /* HomeView.swift */; };
+		AD2BB27126FCB0010001F4B1 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB27026FCB0010001F4B1 /* HeroView.swift */; };
+		AD2BB27326FCB0090001F4B1 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB27226FCB0090001F4B1 /* TeamView.swift */; };
+		AD2BB27626FCB24D0001F4B1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD2BB27526FCB24D0001F4B1 /* SDWebImageSwiftUI */; };
+		AD2BB27926FCB2870001F4B1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD2BB27826FCB2870001F4B1 /* Lottie */; };
+		AD2BB28026FCEA550001F4B1 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BB27E26FCEA550001F4B1 /* LottieView.swift */; };
+		AD2BB28126FCEA550001F4B1 /* magic.json in Resources */ = {isa = PBXBuildFile; fileRef = AD2BB27F26FCEA550001F4B1 /* magic.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,15 @@
 		AD2BB25026FAE9B90001F4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD2BB25326FAE9B90001F4B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD2BB25526FAE9B90001F4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2BB25C26FAE9DB0001F4B1 /* DotaHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaHeroModel.swift; sourceTree = "<group>"; };
+		AD2BB25E26FAE9E30001F4B1 /* DotaTeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaTeamModel.swift; sourceTree = "<group>"; };
+		AD2BB26126FAEA990001F4B1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AD2BB26426FAEAC00001F4B1 /* NetworksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworksService.swift; sourceTree = "<group>"; };
+		AD2BB26E26FCAFFA0001F4B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AD2BB27026FCB0010001F4B1 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		AD2BB27226FCB0090001F4B1 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		AD2BB27E26FCEA550001F4B1 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LottieView.swift; path = ../../../../../Desktop/Resouce/LottieView.swift; sourceTree = "<group>"; };
+		AD2BB27F26FCEA550001F4B1 /* magic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = magic.json; path = ../../../../../Desktop/Resouce/magic.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2BB27626FCB24D0001F4B1 /* SDWebImageSwiftUI in Frameworks */,
+				AD2BB27926FCB2870001F4B1 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +74,10 @@
 		AD2BB24B26FAE9B80001F4B1 /* Dota2Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AD2BB26D26FCAFF00001F4B1 /* Views */,
+				AD2BB26326FAEAB30001F4B1 /* Service */,
+				AD2BB26026FAEA8A0001F4B1 /* View Models */,
+				AD2BB25B26FAE9CB0001F4B1 /* Models */,
 				AD2BB24C26FAE9B80001F4B1 /* Dota2DemoApp.swift */,
 				AD2BB24E26FAE9B80001F4B1 /* ContentView.swift */,
 				AD2BB25026FAE9B90001F4B1 /* Assets.xcassets */,
@@ -67,6 +93,43 @@
 				AD2BB25326FAE9B90001F4B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD2BB25B26FAE9CB0001F4B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BB25C26FAE9DB0001F4B1 /* DotaHeroModel.swift */,
+				AD2BB25E26FAE9E30001F4B1 /* DotaTeamModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD2BB26026FAEA8A0001F4B1 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BB26126FAEA990001F4B1 /* ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		AD2BB26326FAEAB30001F4B1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BB26426FAEAC00001F4B1 /* NetworksService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AD2BB26D26FCAFF00001F4B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BB27E26FCEA550001F4B1 /* LottieView.swift */,
+				AD2BB27F26FCEA550001F4B1 /* magic.json */,
+				AD2BB26E26FCAFFA0001F4B1 /* HomeView.swift */,
+				AD2BB27026FCB0010001F4B1 /* HeroView.swift */,
+				AD2BB27226FCB0090001F4B1 /* TeamView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +148,10 @@
 			dependencies = (
 			);
 			name = Dota2Demo;
+			packageProductDependencies = (
+				AD2BB27526FCB24D0001F4B1 /* SDWebImageSwiftUI */,
+				AD2BB27826FCB2870001F4B1 /* Lottie */,
+			);
 			productName = Dota2Demo;
 			productReference = AD2BB24926FAE9B80001F4B1 /* Dota2Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +179,10 @@
 				Base,
 			);
 			mainGroup = AD2BB24026FAE9B80001F4B1;
+			packageReferences = (
+				AD2BB27426FCB24D0001F4B1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				AD2BB27726FCB2870001F4B1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = AD2BB24A26FAE9B80001F4B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +199,7 @@
 			files = (
 				AD2BB25426FAE9B90001F4B1 /* Preview Assets.xcassets in Resources */,
 				AD2BB25126FAE9B90001F4B1 /* Assets.xcassets in Resources */,
+				AD2BB28126FCEA550001F4B1 /* magic.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +210,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2BB26526FAEAC00001F4B1 /* NetworksService.swift in Sources */,
+				AD2BB26F26FCAFFA0001F4B1 /* HomeView.swift in Sources */,
+				AD2BB27126FCB0010001F4B1 /* HeroView.swift in Sources */,
+				AD2BB26226FAEA990001F4B1 /* ViewModel.swift in Sources */,
+				AD2BB25D26FAE9DB0001F4B1 /* DotaHeroModel.swift in Sources */,
 				AD2BB24F26FAE9B80001F4B1 /* ContentView.swift in Sources */,
+				AD2BB25F26FAE9E30001F4B1 /* DotaTeamModel.swift in Sources */,
 				AD2BB24D26FAE9B80001F4B1 /* Dota2DemoApp.swift in Sources */,
+				AD2BB28026FCEA550001F4B1 /* LottieView.swift in Sources */,
+				AD2BB27326FCB0090001F4B1 /* TeamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +408,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD2BB27426FCB24D0001F4B1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/chr1s78/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		AD2BB27726FCB2870001F4B1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/chr1s78/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD2BB27526FCB24D0001F4B1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD2BB27426FCB24D0001F4B1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		AD2BB27826FCB2870001F4B1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD2BB27726FCB2870001F4B1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD2BB24126FAE9B80001F4B1 /* Project object */;
 }
